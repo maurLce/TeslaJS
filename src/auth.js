@@ -122,7 +122,7 @@ exports.login = function login(credentials, callback) {
     }).then(function (result) {
         return req({
             method: 'POST',
-            url: 'https://owner-api.teslamotors.com/oauth/token',
+            url: '/owner-api/oauth/token',
             headers: {
                 Authorization: 'Bearer ' + result.body.access_token
             },

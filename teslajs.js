@@ -44,7 +44,7 @@ var streamingBaseURI = process.env.TESLAJS_STREAMING || streamingPortal;
  * @global   
  * @default  
  */
-var portal = "https://owner-api.teslamotors.com";
+var portal = "/owner-api";
 exports.portal = portal;
 
 var portalBaseURI = process.env.TESLAJS_SERVER || portal;
